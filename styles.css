@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    height:100%;
+    width:100%;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+.header{
+    width:100%;
+    min-height:80px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+}
+.logo{
+    font-size: 3.5rem;
+    margin-left: 25px;
+    font-family: 'Sacramento', cursive;
+    color:rgb(255, 255, 255);
+}
+.link{
+    font-size:2.6rem;
+    margin-left: 1050px;
+    position:absolute;
+    display:flex;
+    gap:40px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.content{
+    width:70%;
+    margin:auto;
+    box-shadow: 0 29px 52px rgba(0,0,0,0.40), 0 25px 16px rgba(0,0,0,0.20);
+    background-color: rgb(218, 245, 153);
+    border-radius:10px;
+}
+.frecipe{
+    margin:20px;
+    display: flex;
+    gap:30px;
+}
+.gulab{
+    float:right;
+    margin:15px;
+    height:400px;
+    width:300px;
+    border-radius: 10px;
+}
+h2{
+    font-family: 'Merriweather', 'sans-serif';
+    color:orangered;
+}
+h3{
+    font-family: 'Merriweather', 'sans-serif';
+}
+.prs{
+    line-height: 2;
+    color:rgba(0, 0, 0, 0.909);
+}
+.content1{
+    width:70%;
+    margin:50px auto 50px auto;
+    box-shadow: 0 29px 52px rgba(0,0,0,0.40), 0 25px 16px rgba(0,0,0,0.20);
+    background-color: rgb(218, 245, 153);
+    border-radius: 10px;
+}
+.srecipe{
+    margin:20px;
+    display: flex;
+    gap:30px;
+}
+.ing{
+    color:rgb(39, 121, 23);
+}
+.pro{
+    color:rgb(39, 121, 23);
+}
+li{
+    color:rgba(69, 67, 67, 0.934);
+}
+.prs3{
+    line-height: 2;
+}
+.katri{
+    margin:15px;
+    height:400px;
+    border-radius: 10px;
+}
+.foot{
+    background-color: #23dac4;
+    min-height: 60px;
+    align-items: center;
+}
+.footp{
+    color:rgb(64, 105, 105);
+    font-size: 1.2rem;
+    text-align: center;
+    padding:15px;
+    width:auto;
+}
+.footp:hover{
+    color: rgb(210, 251, 251);
+}
